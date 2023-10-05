@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import MainFeaturedPost from './Cabecera';
+import SobreNosotros from './SobreNosotros';
+
+
+
 
 function App() {
+  const mainFeaturedPost = {
+    title: 'TorreGuada',
+    description:
+      "Somos una empresa que se dedica a realizar montajes de paneles sándwich en todas sus áreas, cubiertas, fachadas, cámaras frigoríficas, cerramientos, puertas, revestimientos, canalones etc... Para su estanquidad a lo largo del tiempo.",
+    image: 'https://source.unsplash.com/random?wallpapers',
+    imageText: 'main image description',
+    linkText: 'Continue reading…',
+  };
+
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <><MainFeaturedPost post={mainFeaturedPost}></MainFeaturedPost> 
+   <SobreNosotros></SobreNosotros>
+    </>
   );
 }
 
