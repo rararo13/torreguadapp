@@ -1,6 +1,9 @@
 import './App.css';
 import MainFeaturedPost from './Cabecera';
 import SobreNosotros from './SobreNosotros';
+import React from 'react';
+import WhatsappButton from './WhatsAppButton';
+import SimpleSlider from './Carousel';
 
 
 
@@ -14,12 +17,16 @@ function App() {
     imageText: 'main image description',
     linkText: 'Continue reading…',
   };
-
   
   
   return (
     <><MainFeaturedPost post={mainFeaturedPost}></MainFeaturedPost> 
    <SobreNosotros></SobreNosotros>
+   <WhatsappButton></WhatsappButton>
+   <div>
+      <SimpleSlider />
+    </div>
+  
     </>
   );
 }

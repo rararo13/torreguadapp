@@ -78,3 +78,12 @@ li {
   color: #333;
 }
 
+.whatsapp-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+
