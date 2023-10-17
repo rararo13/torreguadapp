@@ -2,12 +2,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import logo from './logo.svg';
 
 const Carousel = () => {
   const images = [
-    './logo.svg',
-    'url_de_la_imagen_2',
-    'url_de_la_imagen_3',
+   {logo},{logo},{logo}
     // Agrega más URLs de imágenes según sea necesario
   ];
 
@@ -25,7 +24,9 @@ const Carousel = () => {
       <Slider {...settings}>
         {images.map((imageUrl, index) => (
           <div key={index}>
-            <img src={imageUrl} alt={`imagen-${index}`} />
+                      {console.log(imageUrl)}
+
+            <img src={imageUrl.logo} alt={`imagen-${index}`} />
           </div>
         ))}
       </Slider>
