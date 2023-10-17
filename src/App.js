@@ -3,7 +3,7 @@ import MainFeaturedPost from './Cabecera';
 import SobreNosotros from './SobreNosotros';
 import React from 'react';
 import WhatsappButton from './WhatsAppButton';
-import SimpleSlider from './Carousel';
+import Carousel from './Carousel';
 
 
 
@@ -24,7 +24,7 @@ function App() {
    <SobreNosotros></SobreNosotros>
    <WhatsappButton></WhatsappButton>
    <div>
-      <SimpleSlider />
+      <Carousel />
     </div>
   
     </>
