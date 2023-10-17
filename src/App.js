@@ -1,10 +1,11 @@
 import './App.css';
 import MainFeaturedPost from './Cabecera';
-import SobreNosotros from './SobreNosotros';
 import React from 'react';
 import WhatsappButton from './WhatsAppButton';
 import Carousel from './Carousel';
-
+import Card from './Card';
+import SobreNosotros from './SobreNosotros';
+import logo from "./logo.svg"
 
 
 
@@ -20,13 +21,15 @@ function App() {
   
   
   return (
-    <><MainFeaturedPost post={mainFeaturedPost}></MainFeaturedPost> 
-   <SobreNosotros></SobreNosotros>
-   <WhatsappButton></WhatsappButton>
-   <div>
+    <>
+      <MainFeaturedPost post={mainFeaturedPost}/>
+      <div style={{display:'inline-flex', justifyContent:'space-between'}}>
+        <Card componente={<SobreNosotros/>} titulo={"Sobre Nosotros"} imagen={logo}/>
+        <Card componente={<SobreNosotros/>} titulo={"Cabecera"}/>
+        <Card componente={<SobreNosotros/>} titulo={"fafafa"}/>
+      </div>
+      <WhatsappButton/>
       <Carousel />
-    </div>
-  
     </>
   );
 }
