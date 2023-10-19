@@ -5,31 +5,51 @@ import WhatsappButton from './WhatsAppButton';
 import Carousel from './Carousel';
 import Card from './Card';
 import SobreNosotros from './SobreNosotros';
-import logo from "./logo.svg"
+import Formulario from './Formulario';
+import logo from "./img/logo.svg"
+import portada from './img/portada.jpeg'
+import Cubiertas from './Cubiertas'
+import Fachadas from './Fachadas'
+import Cerramientos from './Cerramientos'
+import CamarasFrigorificas from './CamarasFrigorificas'
+import Revestimientos from './Revestimientos'
+import Mantenimientos from './Mantenimientos'
+
 
 
 
 function App() {
   const mainFeaturedPost = {
-    title: 'TorreGuada',
+    title: '',
     description:
-      "Somos una empresa que se dedica a realizar montajes de paneles sándwich en todas sus áreas, cubiertas, fachadas, cámaras frigoríficas, cerramientos, puertas, revestimientos, canalones etc... Para su estanquidad a lo largo del tiempo.",
-    image: 'https://source.unsplash.com/random?wallpapers',
-    imageText: 'main image description',
-    linkText: 'Continue reading…',
+      "",
+    image: { portada },
+    imageText: '',
+    linkText: '',
   };
-  
-  
+
+
   return (
     <>
-      <MainFeaturedPost post={mainFeaturedPost}/>
-      <div style={{display:'inline-flex', justifyContent:'space-between'}}>
-        <Card componente={<SobreNosotros/>} titulo={"Sobre Nosotros"} imagen={logo}/>
-        <Card componente={<SobreNosotros/>} titulo={"Cabecera"}/>
-        <Card componente={<SobreNosotros/>} titulo={"fafafa"}/>
-      </div>
-      <WhatsappButton/>
+      <MainFeaturedPost post={mainFeaturedPost} />
       <Carousel />
+      <div style={{ display: 'flex', marginTop: '70px' }}>
+        <Card componente={<Cubiertas />} titulo={"Cubiertas"} imagen={logo} />
+        <div style={{ marginRight: '10px' }}></div>
+        <Card componente={<Fachadas />} titulo={"Fachadas"} imagen={logo} />
+        <div style={{ marginRight: '10px' }}></div>
+        <Card componente={<Cerramientos />} titulo={"Cerramientos"} imagen={logo} />
+      </div>
+      <div style={{ display: 'flex', marginTop: '70px' }}>
+        <Card componente={<CamarasFrigorificas />} titulo={"Cubiertas"} imagen={logo} />
+        <div style={{ marginRight: '10px' }}></div>
+        <Card componente={<Revestimientos />} titulo={"Revestimientos"} imagen={logo} />
+        <div style={{ marginRight: '10px' }}></div>
+        <Card componente={<Mantenimientos />} titulo={"Mantenimientos"} imagen={logo} />
+      </div>
+      <SobreNosotros />
+      <Formulario />
+      <WhatsappButton />
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Card.css";
-import logo from "./logo.svg"
+import logo from "./img/logo.svg"
 
 const Card = (props) => {
 
