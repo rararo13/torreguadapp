@@ -3,15 +3,21 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+import camara1 from "./img/Camara1.png"
+import camara2 from "./img/Camara2.jpg"
+import camara3 from "./img/Camara3.jpg"
+import camara4 from "./img/Camara4.jpg"
+import camara5 from "./img/Camara5.jpg"
+import camara6 from "./img/Camara6.jpg"
+import camara7 from "./img/Camara7.jpg"
+import camara8 from "./img/Camara8.jpg"
+import camara9 from "./img/Camara9.jpg"
 
 
 const CamarasFrigorificas = () => {
     const images = [
-        { uno }, { logo }, { dos }, { logo }, { tres }, { logo }
+        {camara1},{camara2},{camara3},{camara4},{camara5},{camara6},{camara7},
+        {camara8},{camara9}
     ];
 
     const settings = {

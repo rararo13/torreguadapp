@@ -4,14 +4,12 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+
 
 
 const Mantenimientos = () => {
     const images = [
-        { uno }, { logo }, { dos }, { logo }, { tres }, { logo }
+      { logo }
     ];
 
     const settings = {

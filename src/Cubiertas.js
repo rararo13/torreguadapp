@@ -3,16 +3,26 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+import cubierta1 from "./img/Cubierta1.jpg"
+import cubierta2 from "./img/Cubierta2.jpg"
+import cubierta3 from "./img/Cubierta3.jpg"
+import cubierta4 from "./img/Cubierta4.jpg"
+import cubierta5 from "./img/Cubierta5.jpg"
+import cubierta6 from "./img/Cubierta6.jpg"
+import cubierta7 from "./img/Cubierta7.jpg"
+import cubierta8 from "./img/Cubierta8.jpg"
+import cubierta9 from "./img/Cubierta9.jpg"
+import cubierta10 from "./img/Cubierta10.jpg"
+import cubierta11 from "./img/Cubierta11.jpg"
+
+
 
 
 const Cubiertas = () => {
   const images = [
-    {uno},{logo},{dos},{logo},{tres},{logo}
-     // Agrega más URLs de imágenes según sea necesario
+    {cubierta1},{cubierta2},{cubierta3},{cubierta4},{cubierta5},{cubierta6},{cubierta7},
+    {cubierta8},{cubierta9},{cubierta10},{cubierta11}
+
    ];
  
    const settings = {

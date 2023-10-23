@@ -3,15 +3,16 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+import fachada1 from "./img/Fachada1.jpg"
+import fachada2 from "./img/Fachada2.jpg"
+import fachada3 from "./img/Fachada3.jpg"
+
+
 
 
 const Fachadas = () => {
     const images = [
-        { uno }, { logo }, { dos }, { logo }, { tres }, { logo }
+        {fachada1},{fachada2},{fachada3}
     ];
 
     const settings = {

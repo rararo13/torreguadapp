@@ -3,15 +3,14 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+import revestimiento1 from "./img/Revestimiento1.jpg"
+import revestimiento2 from "./img/Revestimiento2.jpg"
+
 
 
 const Revestimientos = () => {
     const images = [
-        { uno }, { logo }, { dos }, { logo }, { tres }, { logo }
+        {revestimiento1},{revestimiento2}
     ];
 
     const settings = {

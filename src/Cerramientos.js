@@ -3,15 +3,17 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
-import uno from "./img/1.jpeg"
-import dos from "./img/2.jpeg"
-import tres from "./img/3.jpeg"
+import cerrramiento1 from "./img/Cerramiento1.jpg"
+import cerrramiento2 from "./img/Cerramiento2.jpg"
+import cerrramiento3 from "./img/Cerramiento3.jpg"
+import cerrramiento4 from "./img/Cerramiento4.jpg"
+import cerrramiento5 from "./img/Cerramiento5.jpg"
+
 
 
 const Cerramientos = () => {
     const images = [
-        { uno }, { logo }, { dos }, { logo }, { tres }, { logo }
+        {cerrramiento1},{cerrramiento2},{cerrramiento3},{cerrramiento4},{cerrramiento5}
     ];
 
     const settings = {

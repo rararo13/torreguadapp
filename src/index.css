@@ -15,14 +15,14 @@ code {
 /* SobreNosotros.css */
 
 .sobre-nosotros-container {
-  max-width: 1300px;
+  /* max-width: 1300px; */
   padding: 20px;
 }
 
 .banner {
   background-color: #f8f8f8;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .banner h1 {
@@ -67,7 +67,7 @@ ul {
 
 li {
   display: flex;
-  align-items: left;
+  align-items: center;
   margin-bottom: 15px;
 }
 
