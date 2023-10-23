@@ -14,6 +14,7 @@ import Cerramientos from './Cerramientos'
 import CamarasFrigorificas from './CamarasFrigorificas'
 import Revestimientos from './Revestimientos'
 import Mantenimientos from './Mantenimientos'
+import Footer from './Footer'
 
 
 
@@ -48,8 +49,8 @@ function App() {
         <Card componente={<Mantenimientos />} titulo={"Mantenimientos"} imagen={logo} />
       </div>
       <SobreNosotros />
-      <Formulario />
       <WhatsappButton />
+      <Footer/>
     </>
   );
 }
