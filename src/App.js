@@ -14,7 +14,7 @@ import CamarasFrigorificas from './CamarasFrigorificas'
 import Revestimientos from './Revestimientos'
 import Mantenimientos from './Mantenimientos'
 import Footer from './Footer'
-import EmailButton from './';
+import EmailButton from './EmailButton';
 
 
 
