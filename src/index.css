@@ -85,4 +85,12 @@ li {
   text-align: center; /* Alinea el contenido al centro */
 }
 
+.email-button-container {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 1000;
+  text-align: center; /* Alinea el contenido al centro */
+}
+
 

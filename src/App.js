@@ -5,7 +5,6 @@ import WhatsappButton from './WhatsAppButton';
 import Carousel from './Carousel';
 import Card from './Card';
 import SobreNosotros from './SobreNosotros';
-import Formulario from './Formulario';
 import logo from "./img/logo.svg"
 import portada from './img/portada.jpeg'
 import Cubiertas from './Cubiertas'
@@ -15,6 +14,7 @@ import CamarasFrigorificas from './CamarasFrigorificas'
 import Revestimientos from './Revestimientos'
 import Mantenimientos from './Mantenimientos'
 import Footer from './Footer'
+import EmailButton from './';
 
 
 
@@ -50,6 +50,7 @@ function App() {
       </div>
       <SobreNosotros />
       <WhatsappButton />
+      <EmailButton />
       <Footer/>
     </>
   );

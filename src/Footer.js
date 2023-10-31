@@ -90,7 +90,7 @@ export default function Footer() {
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2023 Copyright:
         <a className='text-white' href='https://torreguada.com/'>
-          torreguada.com
+          Torreguada.com
         </a>
       </div>
     </MDBFooter>
