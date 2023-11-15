@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Card.css";
-import logo from "./img/logo.svg"
+
 
 const Card = (props) => {
 
@@ -8,7 +8,6 @@ const Card = (props) => {
 
     return (
         <div className={colapsado ? 'card-container-collapsed': 'card-container'}>
-            <img className="close-button" src={logo} alt='collapse' onClick={() => setColapsado(!colapsado)}></img>
             {!colapsado ? props.componente : 
             <div>
                 <img src={props.imagen} alt="img"/>

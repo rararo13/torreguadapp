@@ -3,13 +3,13 @@ import './Servicios.css'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import logo from './img/logo.svg'
+
 
 
 
 const Mantenimientos = () => {
     const images = [
-      { logo }
+      {  }
     ];
 
     const settings = {
