@@ -22,12 +22,12 @@ import fachada3 from "./img/Fachada3.jpg"
 
 
 const Carousel = () => {
-  const images = [
-   {cubierta1},{cubierta2},{cubierta3},{cubierta6},{camara3},{camara6},{camara7},
-   {camara8},{cerrramiento1},{cerrramiento3},{cerrramiento5},{revestimiento1},{revestimiento2},
-   {fachada1},{fachada2},{fachada3}
+  const images = {
+   cubierta1, cubierta2,cubierta3,cubierta6,camara3,camara6,camara7,
+   camara8,cerrramiento1,cerrramiento3,cerrramiento5,revestimiento1,revestimiento2,
+   fachada1,fachada2,fachada3}
     // Agrega más URLs de imágenes según sea necesario
-  ];
+  ;
 
   const settings = {
     dots: true,
@@ -41,9 +41,9 @@ const Carousel = () => {
     <div>
       <h2>Nuestros Trabajos</h2>
       <Slider {...settings}>
-        {images.map((imageUrl, index) => (
+        {Object.keys(images).map((key, index) => (
           <div key={index} className="carousel-image-container">
-            <img src={imageUrl.logo} alt={`imagen-${index}`} className="carousel-image" />
+            <img src={images[key]} alt={`imagen-${index}`} className="carousel-image" />
           </div>
         ))}
       </Slider>

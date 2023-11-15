@@ -19,11 +19,13 @@ import cubierta11 from "./img/Cubierta11.jpg"
 
 
 const Cubiertas = () => {
-  const images = [
-    {cubierta1},{cubierta2},{cubierta3},{cubierta4},{cubierta5},{cubierta6},{cubierta7},
-    {cubierta8},{cubierta9},{cubierta10},{cubierta11}
+  const images = 
+    {
+      cubierta1,cubierta2,cubierta3,cubierta4,cubierta5,cubierta6,cubierta7,
+    cubierta8,cubierta9,cubierta10,cubierta11
+  }
 
-   ];
+   ;
  
    const settings = {
      dots: true,
@@ -38,9 +40,9 @@ const Cubiertas = () => {
 
         <div>
       <Slider {...settings}>
-        {images.map((imageUrl, index) => (
+        {Object.keys(images).map((key, index) => (
           <div key={index} className="carousel-image-container">
-            <img src={imageUrl.logo} alt={`imagen-${index}`} className="carousel-image" />
+            <img src={images[key]} alt={`imagen-${index}`} className="carousel-image" />
           </div>
         ))}
       </Slider>
