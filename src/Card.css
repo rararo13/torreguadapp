@@ -1,11 +1,12 @@
 .card-container {
+    flex: 1 0 auto;
     border: none;
     border-radius: 25px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     color: rgb(202, 202, 202);
     padding: 20px;
-    width: 30%;
-    margin-left: 2%;
+    width: 80%;
+    margin-left: 10%;
     transition: transform 0.3s ease-in-out;
 }
 

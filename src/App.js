@@ -34,14 +34,14 @@ function App() {
     <>
       <MainFeaturedPost post={mainFeaturedPost} />
       <Carousel />
-      <div style={{ display: 'flex', marginTop: '70px' }}>
+      <div style={{ flex: '1 0 auto', marginTop: '70px' }}>
         <Card componente={<Cubiertas />} titulo={"Cubiertas"} imagen={logo} />
         <div style={{ marginRight: '10px' }}></div>
         <Card componente={<Fachadas />} titulo={"Fachadas"} imagen={logo} />
         <div style={{ marginRight: '10px' }}></div>
         <Card componente={<Cerramientos />} titulo={"Cerramientos"} imagen={logo} />
       </div>
-      <div style={{ display: 'flex', marginTop: '70px' }}>
+      <div style={{ flex: '1 0 auto', marginTop: '70px' }}>
         <Card componente={<CamarasFrigorificas />} titulo={"Cubiertas"} imagen={logo} />
         <div style={{ marginRight: '10px' }}></div>
         <Card componente={<Revestimientos />} titulo={"Revestimientos"} imagen={logo} />
