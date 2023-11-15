@@ -15,10 +15,10 @@ import camara9 from "./img/Camara9.jpg"
 
 
 const CamarasFrigorificas = () => {
-    const images = [
-        {camara1},{camara2},{camara3},{camara4},{camara5},{camara6},{camara7},
-        {camara8},{camara9}
-    ];
+    const images = {
+        camara1,camara2,camara3,camara4,camara5,camara6,camara7,
+        camara8,camara9
+    };
 
     const settings = {
         dots: true,
@@ -32,9 +32,9 @@ const CamarasFrigorificas = () => {
             <h2 className="servicio-titulo">Cámaras Frigoríficas</h2>
             <div>
                 <Slider {...settings}>
-                    {images.map((imageUrl, index) => (
+                    {Object.keys(images).map((key, index) => (
                         <div key={index} className="carousel-image-container">
-                            <img src={imageUrl.logo} alt={`imagen-${index}`} className="carousel-image" />
+                            <img src={images[key]} alt={`imagen-${index}`} className="carousel-image" />
                         </div>
                     ))}
                 </Slider>

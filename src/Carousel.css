@@ -6,6 +6,6 @@
   
   .carousel-image {
     max-width: 100%; /* La imagen no puede ser más ancha que su contenedor */
-    height: 600px; /* Mantiene la proporción original de la imagen */
+    height: 70%; /* Mantiene la proporción original de la imagen */
     border-radius: 8px; /* Otra mejora visual opcional */
   }

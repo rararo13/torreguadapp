@@ -12,9 +12,9 @@ import cerrramiento5 from "./img/Cerramiento5.jpg"
 
 
 const Cerramientos = () => {
-    const images = [
-        {cerrramiento1},{cerrramiento2},{cerrramiento3},{cerrramiento4},{cerrramiento5}
-    ];
+    const images = {
+        cerrramiento1,cerrramiento2,cerrramiento3,cerrramiento4,cerrramiento5
+    };
 
     const settings = {
         dots: true,
@@ -29,9 +29,9 @@ const Cerramientos = () => {
 
             <div>
                 <Slider {...settings}>
-                    {images.map((imageUrl, index) => (
+                    {Object.keys(images).map((key, index) => (
                         <div key={index} className="carousel-image-container">
-                            <img src={imageUrl.logo} alt={`imagen-${index}`} className="carousel-image" />
+                            <img src={images[key]} alt={`imagen-${index}`} className="carousel-image" />
                         </div>
                     ))}
                 </Slider>
