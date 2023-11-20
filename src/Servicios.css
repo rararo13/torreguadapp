@@ -51,7 +51,7 @@
 
 /* Make sure the parent container has a fixed width to contain the slider */
 .servicio-container {
-  max-width: 600px; /* Adjust the width as needed */
+  max-width: 750px; /* Adjust the width as needed */
   margin: 0 auto; /* Center the container if needed */
 }
 

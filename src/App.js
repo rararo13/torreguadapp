@@ -33,21 +33,22 @@ function App() {
     <>
       <MainFeaturedPost post={mainFeaturedPost} />
       <Carousel />
+      <SobreNosotros />
       <div style={{ flex: '1 0 auto', marginTop: '70px' }}>
         <Card componente={<Cubiertas />} titulo={"Cubiertas"} />
-        <div style={{ marginRight: '10px' }}></div>
+        <div style={{ marginBottom: '60px' }}></div>
         <Card componente={<Fachadas />} titulo={"Fachadas"}/>
-        <div style={{ marginRight: '10px' }}></div>
+        <div style={{ marginBottom: '60px' }}></div>
         <Card componente={<Cerramientos />} titulo={"Cerramientos"}  />
       </div>
       <div style={{ flex: '1 0 auto', marginTop: '70px' }}>
         <Card componente={<CamarasFrigorificas />} titulo={"Cubiertas"}  />
-        <div style={{ marginRight: '10px' }}></div>
+        <div style={{  marginBottom: '60px'}}></div>
         <Card componente={<Revestimientos />} titulo={"Revestimientos"} />
-        <div style={{ marginRight: '10px' }}></div>
+        <div style={{  marginBottom: '60px' }}></div>
         <Card componente={<Mantenimientos />} titulo={"Mantenimientos"} />
       </div>
-      <SobreNosotros />
+  
       <WhatsappButton />
       <EmailButton />
       <Footer/>
