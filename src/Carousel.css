@@ -3,6 +3,8 @@
     width: 100%; /* Ajusta el ancho según tus necesidades */
     text-align: center; /* Centra la imagen en el contenedor */
   }
+
+ 
   
   .carousel-image {
     max-width: 100%; /* La imagen no puede ser más ancha que su contenedor */

@@ -38,7 +38,7 @@ const Carousel = () => {
   };
 
   return (
-    <div>
+    <div className="carousel">
       <h2>Nuestros Trabajos</h2>
       <Slider {...settings}>
         {Object.keys(images).map((key, index) => (

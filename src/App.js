@@ -32,7 +32,9 @@ function App() {
   return (
     <>
       <MainFeaturedPost post={mainFeaturedPost} />
+      <div style={{marginTop: '70px' }}></div>
       <Carousel />
+      <div style={{marginTop: '70px' }}></div>
       <SobreNosotros />
       <div style={{ flex: '1 0 auto', marginTop: '70px' }}>
         <Card componente={<Cubiertas />} titulo={"Cubiertas"} />
@@ -51,6 +53,7 @@ function App() {
   
       <WhatsappButton />
       <EmailButton />
+      <div style={{marginTop: '70px' }}></div>
       <Footer/>
     </>
   );

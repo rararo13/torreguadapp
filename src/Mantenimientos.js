@@ -4,12 +4,25 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import mantenimiento1 from "./img/Mantenimiento1.jpeg"
+import mantenimiento2 from "./img/Mantenimiento2.jpeg"
+import mantenimiento3 from "./img/Mantenimiento3.jpeg"
+import mantenimiento4 from "./img/Mantenimiento4.jpeg"
+import mantenimiento5 from "./img/Mantenimiento5.jpeg"
+import mantenimiento6 from "./img/Mantenimiento6.jpeg"
+import mantenimiento7 from "./img/Mantenimiento7.jpeg"
+import mantenimiento8 from "./img/Mantenimiento8.jpeg"
+import mantenimiento9 from "./img/Mantenimiento9.jpeg"
+
+
 
 
 
 const Mantenimientos = () => {
-    const images = 
-      {  };
+  
+    const images = {
+        mantenimiento1,mantenimiento2,mantenimiento3,mantenimiento4,mantenimiento5,mantenimiento6,mantenimiento7,mantenimiento8,mantenimiento9
+    };
 
     const settings = {
         dots: true,

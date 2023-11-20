@@ -26,13 +26,13 @@ export default function Footer() {
 
   const redirectToInstagramProfile =
   () => {
-      const instagramProfileURL = `https://www.instagram.com/juanantoniojimenezz/`;
+      const instagramProfileURL = `https://www.instagram.com/torreguada_/`;
       window.location.href = instagramProfileURL;
     };
 
     const redirectToLinkedinProfile =
     () => {
-        const linkedinProfileURL = `https://www.linkedin.com/in/rafael-ramírez-román-691701223/`;
+        const linkedinProfileURL = `https://www.linkedin.com/in/torreguada-cubiertas-y-fachadas-5462752a0/`;
         window.location.href = linkedinProfileURL;
       };
  
