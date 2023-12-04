@@ -5,7 +5,7 @@ import WhatsappButton from './WhatsAppButton';
 import Carousel from './Carousel';
 import Card from './Card';
 import SobreNosotros from './SobreNosotros';
-import portada from './img/portada.jpeg'
+import portada from './img/cabecera.jpeg'
 import Cubiertas from './Cubiertas'
 import Fachadas from './Fachadas'
 import Cerramientos from './Cerramientos'
@@ -14,6 +14,7 @@ import Revestimientos from './Revestimientos'
 import Mantenimientos from './Mantenimientos'
 import Footer from './Footer'
 import EmailButton from './EmailButton';
+import Cabecera from './Cabecera';
 
 
 
@@ -31,7 +32,7 @@ function App() {
 
   return (
     <>
-      <MainFeaturedPost post={mainFeaturedPost} />
+      <Cabecera />
       <div style={{marginTop: '70px' }}></div>
       <Carousel />
       <div style={{marginTop: '70px' }}></div>

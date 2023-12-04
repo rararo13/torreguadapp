@@ -4,7 +4,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import './index.css'; // Asegúrate de tener este archivo de estilos
 
 const WhatsappButton = () => {
-  const phoneNumber = '34605261935';
+  const phoneNumber = '34601494815';
 
   const handleButtonClick = () => {
     window.location.href = `https://wa.me/${phoneNumber}`;
