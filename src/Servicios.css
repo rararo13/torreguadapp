@@ -9,7 +9,7 @@
 
 .servicio-titulo {
     color: #000000; /* Color azul brillante, puedes ajustar según tu paleta */
-    font-size: 2em; /* Tamaño de fuente en em para mejor escalabilidad */
+    font-size: 1.5em; /* Tamaño de fuente en em para mejor escalabilidad */
     margin-bottom: 10px;
     border-bottom: 2px solid #311c1c; /* Línea de separación */
     padding-bottom: 5px; /* Espaciado para la línea de separación */
