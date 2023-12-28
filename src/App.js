@@ -31,7 +31,7 @@ function App() {
 
 
   return (
-    <>
+    <div>
       <Cabecera />
       <div style={{marginTop: '70px' }}></div>
       <Carousel />
@@ -56,7 +56,7 @@ function App() {
       <EmailButton />
       <div style={{marginTop: '70px' }}></div>
       <Footer/>
-    </>
+    </div>
   );
 }
 
